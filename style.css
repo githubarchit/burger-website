@@ -6,18 +6,27 @@ font-family: 'Oswald', sans-serif;
 font-family: 'Poppins', sans-serif;
 font-family: 'Roboto', sans-serif;
 */
-
+body {
+    background-image: url('./images/download-1.jpg');
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size:100% 100%;
+    background-attachment: fixed;
+}
 .jumbotron{
     height:100vh;
     padding:40px;
-    background-image:url('./images/7.jpg');
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
 }
 .jumbotron-text{
-    font-family: 'Oswald', sans-serif;
+    font-family: 'Anton', sans-serif;
     font-weight:800;
+    color:white;
+    font-size:6rem;
+}
+
+.full-container{
+    border-radius:25px;
+    
 }
 
 .container-new{
@@ -59,6 +68,9 @@ font-family: 'Roboto', sans-serif;
 
 h3{
     font-size: 3rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight:bolder;
+    padding-bottom:20px;
 }
 
 #section-1{
@@ -66,7 +78,7 @@ h3{
 }
 
 .navbar-brand{
-    font-size: 2rem;
+    font-size: 2.7rem;
     font-family: 'Oswald', sans-serif;
 }
 
@@ -75,4 +87,28 @@ h3{
     padding-left: 20px;
     padding-right: 20px;
     font-family: 'Anton', sans-serif;
+}
+
+.blur-container{
+    padding-top:40px;
+    background: rgba( 255, 255, 255, 0.15 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 5px );
+    -webkit-backdrop-filter: blur( 5px );
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+
+.heading-subtitle{
+    font-family: 'Poppins', sans-serif;
+    font-weight: bolder;
+}
+
+.submit-btn{
+    width:170px;
+    margin-right:auto;
+    margin-left:auto;
+}
+
+.navbar-image{
+    margin-right:10px;
 }
